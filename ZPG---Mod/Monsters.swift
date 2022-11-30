@@ -32,7 +32,7 @@ struct Monster {
     
     mutating func WasHit(damage: Int) -> Bool { //return true if dead
         
-        return true
+        return false
         
     }
     
