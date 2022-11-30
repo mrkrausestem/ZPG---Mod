@@ -56,8 +56,6 @@ class Warrior : Adventurer {
         self.damage = 10
         self.hitRate = 0.30
     }
-    
-    
 
 }
 
