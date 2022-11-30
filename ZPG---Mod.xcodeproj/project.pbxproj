@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		6DB9CCC929378BEE00EBE3E3 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB9CCC829378BEE00EBE3E3 /* main.swift */; };
+		6DB9CCD229378C9C00EBE3E3 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB9CCCF29378C9C00EBE3E3 /* Helpers.swift */; };
+		6DB9CCD329378C9C00EBE3E3 /* Monsters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB9CCD029378C9C00EBE3E3 /* Monsters.swift */; };
+		6DB9CCD429378C9C00EBE3E3 /* Heroes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB9CCD129378C9C00EBE3E3 /* Heroes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		6DB9CCC529378BEE00EBE3E3 /* ZPG---Mod */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "ZPG---Mod"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DB9CCC829378BEE00EBE3E3 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		6DB9CCCF29378C9C00EBE3E3 /* Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		6DB9CCD029378C9C00EBE3E3 /* Monsters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Monsters.swift; sourceTree = "<group>"; };
+		6DB9CCD129378C9C00EBE3E3 /* Heroes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Heroes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				6DB9CCC829378BEE00EBE3E3 /* main.swift */,
+				6DB9CCD129378C9C00EBE3E3 /* Heroes.swift */,
+				6DB9CCD029378C9C00EBE3E3 /* Monsters.swift */,
+				6DB9CCCF29378C9C00EBE3E3 /* Helpers.swift */,
 			);
 			path = "ZPG---Mod";
 			sourceTree = "<group>";
@@ -121,6 +130,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6DB9CCC929378BEE00EBE3E3 /* main.swift in Sources */,
+				6DB9CCD429378C9C00EBE3E3 /* Heroes.swift in Sources */,
+				6DB9CCD229378C9C00EBE3E3 /* Helpers.swift in Sources */,
+				6DB9CCD329378C9C00EBE3E3 /* Monsters.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
