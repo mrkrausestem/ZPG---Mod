@@ -28,5 +28,5 @@ heroes.append(blippo)
 blippo.status()
 bluto.status()
 blammo.status()
-
-
+//select a hero to go
+print("The hero enters the dungeon!")
