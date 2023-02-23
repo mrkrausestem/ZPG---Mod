@@ -32,8 +32,7 @@ class Adventurer {
     
     func attack() -> Bool { //returns true if hits
         
-        var hitRoll : Int = 0
-        hitRoll = getRando(99) + 1
+        var hitRoll : Int = getRando(99) + 1
         
         return false
     
